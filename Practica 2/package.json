@@ -1,0 +1,15 @@
+{
+  "name": "practica-2-node-express",
+  "version": "1.0.0",
+  "description": "Práctica N° 2 - INF-133",
+  "main": "app.js",
+  "dependencies": {
+    "docx": "9.7.1",
+    "express": "^4.18.2",
+    "sequelize": "^6.31.0",
+    "sql.js": "1.14.1"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
