@@ -1,11 +1,17 @@
 # AGENTS.md — SaludApp
 
-## Structure
+## Structure (inside `proyecto/`)
 Monorepo with two packages:
 - `backend/` — Node.js + Express API (entry: `src/server.js`)
 - `frontend/` — Expo React Native app (entry: `App.js` → `src/navigation/AppNavigator.js`)
 
-No workspace manager (no root `package.json`). Run commands from each package directory.
+No workspace manager. Run commands from each package directory:
+
+```bash
+cd proyecto/backend
+# or
+cd proyecto/frontend
+```
 
 ## Backend Setup
 Requires PostgreSQL with `uuid-ossp` extension. Schema: `backend/src/database/schema.sql`.
